@@ -1,0 +1,140 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-section {
+    padding: 80px 0 34px;
+  }
+  .fun-facts-area {
+    padding: 80px 0;
+  }
+  .testimonel-area {
+    padding: 80px 0;
+  }
+  .contact-area {
+    padding: 80px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-service {
+    width: 50%;
+  }
+  .submit-form > button {
+    margin-bottom: 30px;
+  }
+  .breadcrumb-area {
+    margin-bottom: 70px;
+  }
+  .profile-about ul li {
+    font-size: 14px;
+  }
+  .service-section {
+    padding: 70px 0 24px;
+  }
+  .fun-facts-area {
+    padding: 70px 0;
+  }
+  .testimonel-area {
+    padding: 70px 0;
+  }
+  .contact-area {
+    padding: 70px 0;
+  }
+  .service-section {
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .service-section {
+    height: 1000px;
+    padding: 60px 0 30px;
+  }
+  .single-service-inner {
+    padding: 35px 25px;
+  }
+  .fun-facts-area {
+    padding: 60px 0 30px;
+  }
+  .testimonel-area {
+    padding: 60px 0;
+  }
+  .contact-area {
+    padding: 60px 0;
+  }
+  .single-fun-facts {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .single-service {
+    width: 100%;
+  }
+  .testimonel-img {
+    float: inherit;
+  }
+  .testimonel-cont {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+  .single-counter h3 {
+    margin-bottom: 5px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+  }
+  .testimonel-item {
+    padding: 20px;
+  }
+  .footer-area {
+    padding: 35px 0;
+  }
+  .submit-form > button {
+    margin-bottom: 30px;
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav .toggle-menu {
+    padding-left: 100px;
+  }
+  .nav .toggle-menu:hover + ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgb(0 0 0 / 50%);
+    color: #ff305b;
+    z-index: 100;
+  }
+  .nav ul li a {
+    padding: 15px !important;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 450px;
+  }
+  .main2-caption1 {
+    width: 80%;
+    padding-left: 10%;
+  }
+  .main2-p2,
+  .main2-p1 {
+    float: none;
+  }
+  .main2-p2 {
+    position: relative;
+    right: 0;
+  }
+  .main2-med {
+    width: 500px;
+  }
+  .main2-caption2 {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+}
